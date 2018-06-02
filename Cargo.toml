@@ -1,0 +1,20 @@
+[package]
+name = "minesweeper-yew"
+version = "0.1.0"
+authors = ["Tobias Wink <sainth@sainth.de>"]
+repository = "https://github.com/sainth-/minesweeper-yew"
+license = "Apache-2.0"
+readme = "README.md"
+keywords = ["web", "webasm", "game"]
+categories = ["gui", "web-programming"]
+description = "A minesweeper game using yew"
+
+[dependencies]
+rand = { version = "0.5.0-pre.2", features = ["stdweb"] }
+log = "0.4"
+web_logger = "0.1"
+yew = "0.5"
+
+[patch.crates-io]
+stdweb = { git = "https://github.com/koute/stdweb.git" }
+yew = { git = "https://github.com/sainth-/yew", branch = "oncontextmenu" }

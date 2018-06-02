@@ -2,6 +2,10 @@
 
 Inspired by Dave Comptons [Comparison](https://dc25.github.io/myBlog/2017/11/26/minesweepers-written-using-elm-reflex-miso.html) between Elm, Miso and Reflex is this a Minesweeper version written in [Rust](https://www.rust-lang.org/en-US/) using [Yew](https://github.com/DenisKolodin/yew).
 
+## Demo
+
+[Try it](https://minesweeper.sainth.de/)
+
 ## Build Instructions
 
 1. Install [Rustup](https://github.com/rust-lang-nursery/rustup.rs#installation):
